@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var muestraNumero: UILabel!
     
+    var contador : Int = 0;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +21,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func contador(_ sender: UIButton) {
+        contador += 1;
     }
     
 
