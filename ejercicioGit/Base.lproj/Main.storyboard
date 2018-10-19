@@ -25,21 +25,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ej0-Dg-PIp">
-                                <rect key="frame" x="164" y="352" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="152" y="352" width="70" height="30"/>
+                                <state key="normal" title="Agregar"/>
                                 <connections>
                                     <action selector="contador:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsU-LV-WXG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5G-Ib-bqa">
+                                <rect key="frame" x="155" y="285" width="64" height="30"/>
+                                <state key="normal" title="Disminuir"/>
+                                <connections>
+                                    <action selector="disminuir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dtw-I6-WX8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="isc-db-Q2i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0ox-Ld-KOK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ej0-Dg-PIp" secondAttribute="trailing" constant="165" id="4jT-Op-22E"/>
-                            <constraint firstItem="ej0-Dg-PIp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="5pW-kY-ORX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ej0-Dg-PIp" secondAttribute="bottom" constant="285" id="Bh7-jx-DO7"/>
                             <constraint firstItem="isc-db-Q2i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4f-dO-jdq"/>
+                            <constraint firstItem="I5G-Ib-bqa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="H8v-PP-p0E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ej0-Dg-PIp" secondAttribute="trailing" constant="153" id="TYu-kj-9nS"/>
+                            <constraint firstItem="I5G-Ib-bqa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="265" id="UWd-3v-Spu"/>
                             <constraint firstItem="ej0-Dg-PIp" firstAttribute="top" secondItem="isc-db-Q2i" secondAttribute="bottom" constant="8" id="oBT-vg-YCV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I5G-Ib-bqa" secondAttribute="trailing" constant="156" id="qfx-aR-RfI"/>
+                            <constraint firstItem="ej0-Dg-PIp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="rI7-Ut-l0e"/>
+                            <constraint firstItem="isc-db-Q2i" firstAttribute="top" secondItem="I5G-Ib-bqa" secondAttribute="bottom" constant="8" id="wMi-0j-VwG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -49,6 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

@@ -24,15 +24,18 @@ class ViewController: UIViewController {
         contador += 1;
         muestraNumero.text = String(contador);
         if contador%20 == 0 {
-            let red = CGFloat(arc4random_uniform(100)/100);
-            let blue = CGFloat(arc4random_uniform(100)/100);
-            let green = CGFloat(arc4random_uniform(100)/100);
+            let red = CGFloat(arc4random()).truncatingRemainder(dividingBy: 100) / 100;
+            let green = CGFloat(arc4random()).truncatingRemainder(dividingBy: 100) / 100;
+            let blue = CGFloat(arc4random()).truncatingRemainder(dividingBy: 100) / 100;
             
-            muestraNumero.backgroundColor = UIColor.init(displayP3Red: red, green: green, blue: blue, alpha: 1);
+            muestraNumero.backgroundColor = UIColor.init(red: red, green: green, blue: blue, alpha: 1);
             
         }
     }
     
-
+    @IBAction func disminuir(_ sender: UIButton) {
+        contador -= 1;
+    }
+    
 }
 
