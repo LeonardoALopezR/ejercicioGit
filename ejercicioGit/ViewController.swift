@@ -42,5 +42,9 @@ class ViewController: UIViewController {
         muestraNumero.text = String(contador);
     }
     
+    @IBAction func menosDos(_ sender: UIButton) {
+        contador -= 2;
+        muestraNumero.text = String(contador);
+    }
 }
 

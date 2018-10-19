@@ -46,6 +46,14 @@
                                     <action selector="porDiez:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9h-9w-qJt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPX-Ph-5K9">
+                                <rect key="frame" x="170" y="247" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="-2"/>
+                                <connections>
+                                    <action selector="menosDos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWH-0p-JF0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
