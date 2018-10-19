@@ -35,6 +35,11 @@ class ViewController: UIViewController {
     
     @IBAction func disminuir(_ sender: UIButton) {
         contador -= 1;
+        muestraNumero.text = String(contador);
+    }
+    @IBAction func porDiez(_ sender: UIButton) {
+        contador *= 10;
+        muestraNumero.text = String(contador);
     }
     
 }
